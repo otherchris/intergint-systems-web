@@ -1,0 +1,24 @@
+@import '_sass/_background_animation';
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.site-title h1 { 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 3rem;
+}
+

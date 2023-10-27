@@ -1,0 +1,23 @@
+body {
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: colorfade;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@keyframes colorfade {
+  from {
+    background-color: rgb(254, 170, 246);
+  }
+
+  75% {
+    background-color: rgb(170, 241, 254);
+  }
+
+  to {
+    background-color: rgb(254, 170, 246);
+  }
+}
+
